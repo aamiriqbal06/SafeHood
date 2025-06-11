@@ -1,0 +1,24 @@
+table {
+  width: 80%;               /* Make table wider */
+  border-collapse: collapse;
+  margin: 20px auto;        /* Center table */
+  font-size: 18px;          /* Bigger text */
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px 20px;       /* Space inside cells */
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1; /* Row highlight on hover */
+}
+
